@@ -8,8 +8,11 @@ import { Footercontact } from "./component/home/footercontact";
 import { useEffect } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Roadmap from "./pages/roadmap/roadmap";
+import Feed from "./pages/feed/feed";
 import Layout from './layout'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
+import { IStaticMethods } from "preline/preline";
+
 
 
 
@@ -29,6 +32,12 @@ function App() {
     {
       path:"/roadmap",
       element:<Roadmap/>
+
+    },
+
+    {
+      path:"feed",
+      element:<Feed/>
     }
   ])
   
@@ -37,7 +46,7 @@ function App() {
       
     <div>
       
-      <Navbar />
+      
       <RouterProvider router={router}/>
     
 

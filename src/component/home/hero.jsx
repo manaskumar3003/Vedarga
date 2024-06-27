@@ -1,3 +1,4 @@
+import Navbar from "./navbar";
 import Video from "./video";
 
 
@@ -6,6 +7,8 @@ function Hero(){
   return (<>
     
  <div className="bg-neutral-900">
+
+ <Navbar />
 
  
 <div class="bg-gradient-to-b from-violet-600/10 via-transparent">
