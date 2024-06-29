@@ -5,13 +5,14 @@ import Post from '../../component/feed/post'
 
 const FeedBody = () => {
   return (
-    <div class="h-max bg-white dark:bg-neutral-700">
+    <div class="h-max bg-white-200 dark:bg-neutral-700">
 
         {/*<Stats/>*/}
         <CategoryCard/>
         <Post/>
         <Post/>
         <Post/>
+        
 
     </div>
   )

@@ -8,6 +8,7 @@ export default function Layout() {
             <Link to="/">Home</Link>&nbsp;&nbsp;&nbsp;
             <Link to="/Roadmap">About</Link>
             <Link to="/feed">Feed</Link>
+            <Link to="/explore">Feed</Link>
             <Outlet />
         </>
     )
