@@ -13,6 +13,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 
 
 import Dev from "./pages/dev/dev";
+import User from "./(user)/user";
 
 
 
@@ -43,6 +44,10 @@ function App() {
     {
       path:"/dev",
       element:<Dev/>
+    },
+    {
+      path:"/user",
+      element:<User/>
     }
   ])
   
